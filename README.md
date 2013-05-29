@@ -53,6 +53,21 @@ items to the episode list context menu. Each item needs to have a label and
 a callable that will take a list of selected episodes. This script shows you
 how to implement a "Enqueue in VLC" context menu item using hooks.
 
+## download_new_episodes
+
+Autodownload new episodes only for selected podcast feeds
+
+On posix systems 'zenity' is necessary. User will be asked after addition new 
+feed should be downloaded new episodes of the feed automaticaly or not. 
+ 
+On other systems new episodes will not be downloaded automaticaly by default.
+To switch autodownload feature on user need to open auto_download.sqlite (is 
+in config directory) database with any db-client and change there the necessary 
+records.
+
+### Requirements
+
+- zenify on posix systems
 
 ## flv2mp4
 
