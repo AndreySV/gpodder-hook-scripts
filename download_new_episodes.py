@@ -7,8 +7,8 @@
 # the feed automaticaly or not. 
 # 
 # On other systems new episodes will not be downloaded 
-# automaticaly by default. To switch autodownload feature no
-# user need open auto_download.sqlite database with any db-client
+# automaticaly by default. To switch autodownload feature on
+# user need to open auto_download.sqlite database with any db-client
 # and change where necessary records.
 # 
 # Andrey Skvortsov <Andrej.Skvortzov@gmail.com>
