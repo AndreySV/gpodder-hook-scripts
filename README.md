@@ -98,6 +98,24 @@ Split mp3 files in ranges of 10 minutes when the files are copied to the device.
 
 - mp3splt binary on the path (http://mp3splt.sourceforge.net/)
 
+## mp3_to_ogg
+
+Converts MP3 files to OGG format, makes time-stretching,apply some audio filters
+Fix some errors in broken mp3 files. 
+
+All functionality is imlemented in mp3_to_ogg.sh bash script.
+This bash script should be placed in user PATH. 
+
+### Requirements
+     bash,
+     soxi,
+     sox, 
+     ogginfo, 
+     mp3info,
+     mp3check,
+     mp3val
+     mid3iconv,
+     notify-send.
 
 ## normalize_audio
 
